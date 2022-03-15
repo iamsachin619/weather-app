@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+}
+
+/* body {
+  background-image: url("https://picsum.photos/seed/picsum/700");
+} */
+.searchInput {
+  padding: 9px;
+  width: 73%;
+  max-width: 300px;
+  border-width: 0px;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.btnSearch {
+  display: inline;
+  padding: 10px;
+  background-color: rgb(16, 147, 223);
+  color: white;
+  border-width: 0px;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.searchDiv {
+  margin-top: 14px;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+  .night {
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1593067243214-b2e1be0aff8b?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=MnwzMTAzMzZ8MHwxfHNlYXJjaHwxfHxuaWdodHNreXxlbnwwfHx8fDE2NDczMzY4ODI\u0026ixlib=rb-1.2.1\u0026q=80\u0026w=200%22,%22small_s3%22:%22https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1593067243214-b2e1be0aff8b");
+  }
+}
+
+.night {
+  background-size: 105vw;
+  background-image: url("https://images.unsplash.com/photo-1505322022379-7c3353ee6291?crop=entropy\u0026cs=srgb\u0026fm=jpg\u0026ixid=MnwzMTAzMzZ8MHwxfHNlYXJjaHwxfHxuaWdodHxlbnwwfHx8fDE2NDczMzYwMzA\u0026ixlib=rb-1.2.1\u0026q=85");
+}
+.sunrise {
+  background-size: auto 126vh;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=MnwzMTAzMzZ8MHwxfHNlYXJjaHwxfHxzdW5yaXNlfGVufDB8fHx8MTY0NzMzNzAzMg\u0026ixlib=rb-1.2.1\u0026q=80\u0026w=200%22,%22small_s3%22:%22https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1510784722466-f2aa9c52fff6");
+}
+.sunset {
+  background-size: auto 126vh;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=MnwzMTAzMzZ8MHwxfHNlYXJjaHwxfHxzdW5zZXR8ZW58MHx8fHwxNjQ3MzM3MjAz\u0026ixlib=rb-1.2.1\u0026q=80\u0026w=200%22,%22small_s3%22:%22https://s3.us-west-2.amazonaws.com/images.unsplash.com/small/photo-1495616811223-4d98c6e9c869");
+}
+.day {
+  background-size: auto 146vh;
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1542709111240-e9df0dd813b4?crop=entropy\u0026cs=tinysrgb\u0026fit=max\u0026fm=jpg\u0026ixid=MnwzMTAzMzZ8MHwxfHNlYXJjaHwyfHxkYXl8ZW58MHx8fHwxNjQ3MzM3MzM3\u0026ixlib=rb-1.2.1\u0026q=80\u0026w=200");
+}

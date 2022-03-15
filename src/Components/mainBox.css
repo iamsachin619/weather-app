@@ -1,0 +1,75 @@
+div.widget {
+  position: relative;
+  width: 80%;
+  max-width: 355px;
+
+  margin: 20px auto;
+  background-color: #fcfdfdc2;
+  border-radius: 9px;
+  padding: 20px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -40px #080c21;
+  min-width: 240px;
+}
+#one {
+  height: 105px;
+}
+.PWeather {
+  right: 50px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+}
+div.left-panel {
+}
+
+div.date {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+div.city {
+  font-size: 21px;
+  font-weight: bold;
+
+  padding-top: 8px;
+  color: rgb(0, 0, 0);
+}
+
+div.temp {
+  font-size: 3.7rem;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+}
+
+div.panel {
+  display: inline-block;
+}
+
+.weatherIcon {
+  position: absolute;
+  right: 20px;
+  width: 30vw;
+  max-width: 150px;
+  margin-top: -10px;
+}
+
+table {
+  width: 100%;
+  color: black;
+}
+td.value {
+  text-align: right;
+}
+@media (min-width: 400px) {
+  .weatherIcon {
+    margin-top: -32px;
+  }
+  .PWeather {
+    right: 60px;
+
+    position: absolute;
+    bottom: 5px;
+  }
+}
